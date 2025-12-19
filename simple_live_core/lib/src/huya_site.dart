@@ -188,8 +188,7 @@ class HuyaSite implements LiveSite {
     } catch (e) {
       CoreLog.error(e);
     }
-    return playUserAgent ??
-        "HYSDK(Windows, 30000002)_APP(pc_exe&7030003&official)_SDK(trans&2.29.0.5493)";
+    return "HYSDK(Windows, 30000002)_APP(pc_exe&7030003&official)_SDK(trans&2.29.0.5493)";
   }
 
   @override
